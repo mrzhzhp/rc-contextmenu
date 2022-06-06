@@ -1,3 +1,11 @@
+/*
+ * @Author: zhangzhipeng
+ * @Date: 2022-06-06 13:48:39
+ * @LastEditors: zhangzhipeng
+ * @LastEditTime: 2022-06-06 14:41:11
+ * @FilePath: \rc-contextmenu\webpack.config.js
+ * @Description: 文件说明
+ */
 /* eslint-disable */
 const webpack = require('webpack');
 const path = require('path');
@@ -5,7 +13,7 @@ const path = require('path');
 module.exports = {
     entry: "./src/index.js",
     output: {
-        filename: "dist/react-contextmenu.js",
+        filename: "dist/rc-contextmenu.js",
         libraryTarget: 'umd',
         library: 'ReactContextMenu'
     },

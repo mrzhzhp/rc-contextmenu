@@ -1,4 +1,12 @@
-declare module "react-contextmenu" {
+/*
+ * @Author: zhangzhipeng
+ * @Date: 2022-06-06 13:48:39
+ * @LastEditors: zhangzhipeng
+ * @LastEditTime: 2022-06-06 14:41:49
+ * @FilePath: \rc-contextmenu\src\index.d.ts
+ * @Description: 文件说明
+ */
+declare module "rc-contextmenu" {
     import * as React from "react";
 
     export interface ContextMenuProps {
@@ -66,7 +74,7 @@ declare module "react-contextmenu" {
     export function hideMenu(opts?: any, target?: HTMLElement): void;
 }
 
-declare module "react-contextmenu/modules/actions" {
+declare module "rc-contextmenu/modules/actions" {
     export function showMenu(opts?: any, target?: HTMLElement): void;
     export function hideMenu(opts?: any, target?: HTMLElement): void;
 }

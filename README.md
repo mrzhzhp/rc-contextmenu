@@ -27,13 +27,13 @@ ContextMenu in React with accessibility support. Live Examples can be found [her
 Using npm
 
 ```
-npm install --save react-contextmenu
+npm install --save rc-contextmenu
 ```
 
 Using yarn
 
 ```
-yarn add react-contextmenu
+yarn add rc-contextmenu
 ```
 
 ## Browser Support
