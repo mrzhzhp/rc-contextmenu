@@ -9,3 +9,4 @@ settings:
     version: detect
 rules:
   react/no-array-index-key: 0
+  linebreak-style: ["off", "windows"]

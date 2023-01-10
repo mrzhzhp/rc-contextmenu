@@ -6,12 +6,12 @@ let eventObj = {};
 
 describe('actions test', () => {
     beforeAll(() => {
-        showCallback = jest.fn(e => {
+        showCallback = jest.fn((e) => {
             eventObj = e;
         });
         window.addEventListener(MENU_SHOW, showCallback);
 
-        hideCallback = jest.fn(e => {
+        hideCallback = jest.fn((e) => {
             eventObj = e;
         });
         window.addEventListener(MENU_HIDE, hideCallback);
