@@ -1,6 +1,6 @@
 {
   "name": "rc-contextmenu",
-  "version": "2.15.0",
+  "version": "2.15.1",
   "description": "Context Menu implemented in React/react实现的右键菜单",
   "main": "modules/index.js",
   "module": "es6/index.js",
@@ -52,8 +52,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.1|| ^17.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.1|| ^17.0.0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.1|| ^17.0.0|| ^18.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.1|| ^17.0.0|| ^18.0.0"
   },
   "devDependencies": {
     "babel-cli": "~6.26.0",
